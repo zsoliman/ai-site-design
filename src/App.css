@@ -83,3 +83,116 @@ a:hover {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+/* Reset some default styles */
+body,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+/* Styling for the landing page */
+.landing-page {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Header styles */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+/* Main section styles */
+main {
+  text-align: center;
+}
+
+.intro,
+.specials {
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* Today's Specials styles */
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 8px;
+  background-color: #66b2ff;
+  color: #fff;
+  margin-bottom: 8px;
+  border-radius: 4px;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer p {
+  color: #777;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+  .landing-page {
+    padding: 15px;
+  }
+
+  header h1 {
+    font-size: 24px;
+  }
+
+  .intro,
+  .specials {
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  li {
+    padding: 6px;
+    font-size: 12px;
+  }
+
+  footer p {
+    font-size: 14px;
+  }
+}
