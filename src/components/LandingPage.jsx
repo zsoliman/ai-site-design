@@ -1,37 +1,33 @@
+// LandingPage.js
+
 import React from 'react';
 
-const LandingPage = () => {
+function LandingPage() {
     return (
-        <div className="landing-page">
-            <header>
-                <h1>Welcome to Our Bar</h1>
-            </header>
+        <main>
+            <section className="hero">
+                <h1>Your Restaurant/Bar Name</h1>
+                <p>Welcome to a unique dining and entertainment experience</p>
+            </section>
 
-            <main>
-                <section className="intro">
-                    <h2>About Us</h2>
-                    <p>
-                        Enjoy a vibrant and lively atmosphere at our bar. We offer a wide
-                        selection of drinks, delicious snacks, and a great place to socialize
-                        with friends. Join us for a memorable experience!
-                    </p>
-                </section>
+            <section className="menu">
+                {/* Display menu items here */}
+            </section>
 
-                <section className="specials">
-                    <h2>Today's Specials</h2>
-                    <ul>
-                        <li>Happy Hour: 4 PM - 7 PM</li>
-                        <li>Live Music: Every Friday night</li>
-                        <li>Special Cocktails: Ask our bartenders</li>
-                    </ul>
-                </section>
-            </main>
+            <section className="events">
+                {/* Display upcoming events */}
+            </section>
 
-            <footer>
-                <p>&copy; 2024 Our Bar. All rights reserved.</p>
-            </footer>
-        </div>
+            <section className="location-hours">
+                <h2>Location</h2>
+                <p>123 Main Street, Cityville, State 12345</p>
+
+                <h2>Hours</h2>
+                <p>Monday - Friday: 5:00 PM - 11:00 PM</p>
+                <p>Saturday - Sunday: 12:00 PM - 1:00 AM</p>
+            </section>
+        </main>
     );
-};
+}
 
 export default LandingPage;
